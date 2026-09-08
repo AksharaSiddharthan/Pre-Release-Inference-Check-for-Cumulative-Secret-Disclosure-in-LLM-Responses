@@ -1,4 +1,4 @@
-# Pre-Release Inference Check for Secret Disclosure — Synthetic Experiment
+# Pre-Release Inference Check for Cumulative Secret Disclosure in LLM Responses
 
 ## What this demonstrates
 A synthetic simulation of an LLM session where a user asks a sequence of
