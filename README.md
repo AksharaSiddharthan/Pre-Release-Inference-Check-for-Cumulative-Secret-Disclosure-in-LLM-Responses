@@ -84,16 +84,4 @@ No dependencies beyond the Python standard library.
   level, though this should be stress-tested at higher noise for the
   writeup.
 
-## Limitations to state explicitly in your report
-- The dataset is synthetic and the "leak_bits" quantity is computed
-  analytically (closed-form entropy over a small discrete candidate set),
-  not estimated from an actual LLM's hidden states or output distribution.
-  It stands in for what a real system would need a probe/interpretability
-  method to *estimate* — this experiment validates the **decision policy**
-  (per-turn + cumulative budget), not a real leak-estimation model.
-- Secret domains are small and discrete (10–17 values) so posteriors are
-  exact; real secrets (e.g. free-text PII) have much larger, harder-to-
-  enumerate hypothesis spaces.
-- The keyword filter is a simple stand-in for "existing approaches" and is
-  intentionally basic; a stronger content-classifier baseline would likely
-  do better than shown here, so don't over-claim the margin.
+
