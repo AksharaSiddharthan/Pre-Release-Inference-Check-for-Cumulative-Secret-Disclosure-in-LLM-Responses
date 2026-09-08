@@ -59,7 +59,7 @@ No dependencies beyond the Python standard library.
 | Inference check, per-turn only (ablation) | 1.000 | 0.537 | 0.699 | 0.000 | 0.983 | 55.4% |
 | Inference check + cumulative, noisy estimator | 0.671 | 0.761 | 0.713 | 0.088 | 0.706 | 55.4% |
 
-## How to read this honestly
+## Inferences made
 - **Row 3 (oracle) is a sanity check, not a fair result** — its threshold is
   literally the same rule used to generate the ground-truth label, so
   perfect performance is guaranteed by construction. It shows the ceiling
